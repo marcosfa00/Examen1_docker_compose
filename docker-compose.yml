@@ -11,7 +11,9 @@ services:
       - prestashop_network
   prestashop:
     container_name: prestashop
-    image: prestashop/prestashop:latest # Latest stable version of the PrestaShop, to see all available images go to ...
+    image: prestashop/flashlight:8.1.0-8.1 # Latest stable version of the PrestaShop, to see all available images go to ...
+    volumes:
+      - ./init-scripts:/tmp/init-scripts:ro
     restart: unless-stopped
     depends_on:
       - mysql
