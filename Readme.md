@@ -110,3 +110,11 @@ se debería ver tal que así
 
 ![prestashop copy.png](prestashop%20copy.png)
 
+# DATABASE PHPSTORM
+
+En el meny Tools tenemos la opcion de base de datos, aquí añadimos una nueva base de datos **MySQL** de manera que tendríamos conexión con
+esta base de datos y nuestro servicio
+
+![database_php_storm.png](database_php_storm.png)
+
+aquí comprobamos cómo funciona todo ^
